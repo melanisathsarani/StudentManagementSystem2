@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF4F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Student"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#73558F"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Student Name"
+            android:padding="14dp"
+            android:backgroundTint="#B58ACD"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/edtStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Student ID"
+            android:padding="14dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#B58ACD"/>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Email Address"
+            android:padding="14dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="#B58ACD"/>
+
+        <EditText
+            android:id="@+id/edtCourse"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Course"
+            android:padding="14dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#B58ACD"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Save Student"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#B58ACD"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+</ScrollView>
